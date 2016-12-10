@@ -1,3 +1,6 @@
 [submodule "buildroot"]
 	path = buildroot
 	url = http://git.buildroot.net/buildroot
+[submodule "skarnet"]
+	path = skarnet
+	url = https://github.com/elebihan/br2-ext-skarnet

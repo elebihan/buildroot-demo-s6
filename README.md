@@ -26,7 +26,7 @@ In this configuration, all the programs are built using the
 a firmware, execute:
 
 ```sh
-$ make O=$PWD/output-x86 demo_s6_qemu_x86_defconfig
+$ make O=$PWD/output-x86 qemu_x86_skarnet_glibc_shared_defconfig
 $ make O=$PWD/output-x86
 ```
 
@@ -57,7 +57,7 @@ In this configuration, all the programs are built using
 firmware, execute:
 
 ```sh
-$ make O=$PWD/output-rpi demo_s6_rpi_defconfig
+$ make O=$PWD/output-rpi raspberrypi_skarnet_defconfig
 $ make O=$PWD/output-rpi
 ```
 
@@ -70,7 +70,7 @@ In this configuration, all the programs are built using the GNU libc and
 dynamically linked. To build a firmware, execute:
 
 ```sh
-$ make O=$PWD/output-odroidc2 demo_s6_odroidc2_defconfig
+$ make O=$PWD/output-odroidc2 odroidc2_skarnet_defconfig
 $ make O=$PWD/output-odroidc2
 ```
 

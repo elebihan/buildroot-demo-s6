@@ -1,6 +1,6 @@
 [submodule "buildroot"]
 	path = buildroot
-	url = https://github.com/elebihan/buildroot
+	url =  https://git.busybox.net/buildroot
 [submodule "skarnet"]
 	path = skarnet
 	url = https://github.com/elebihan/br2-ext-skarnet
